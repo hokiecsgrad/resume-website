@@ -1,0 +1,15 @@
+services:
+  hugo:
+    # "exts" = Extended version (required for PaperMod) + Standard tools
+    image: hugomods/hugo:exts
+    container_name: hugo-dev
+    # Maps port 1313 so you can view the site at localhost:1313
+    ports:
+      - "1313:1313"
+    # Mounts your current folder (.) to the container's source folder (/src)
+    volumes:
+      - .:/src
+    # The command to run the dev server
+    # --bind 0.0.0.0 is crucial to expose it outside the container
+    command: hugo server --bind 0.0.0.0 --buildDrafts
+

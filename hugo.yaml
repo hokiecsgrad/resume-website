@@ -1,0 +1,51 @@
+baseURL: "https://ryanhagan.net/"
+languageCode: "en-us"
+title: "Ryan Hagan"
+theme: "PaperMod"
+
+# Optimization settings
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+# Navigation Menu (Top Right)
+menu:
+  main:
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 10
+    - identifier: leadership
+      name: Leadership
+      url: /leadership/
+      weight: 20
+
+params:
+  # Appearance
+  defaultTheme: auto # Respects system dark/light mode
+  ShowReadingTime: true # Good for your leadership essays
+  ShowShareButtons: false
+  ShowBreadCrumbs: true
+
+  # HOMEPAGE CONFIGURATION (Profile Mode)
+  profileMode:
+    enabled: true
+    title: Ryan Hagan
+    subtitle: "Executive Technology Leader & Operational Strategist"
+    imageUrl: "https://github.com/ryanhagan.png" 
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: View Resume
+        url: /resume/
+      - name: Leadership Philosophy
+        url: /leadership/
+
+  # Social Links (Footer/Profile)
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/ryanhagan"
+    - name: github
+      url: "https://github.com/hokiecsgrad"
+    - name: email
+      url: "mailto:ryan@ryanhagan.net"

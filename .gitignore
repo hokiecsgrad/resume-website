@@ -1,0 +1,10 @@
+# Hugo default
+public
+resources
+.hugo_build.lock
+
+# Mac system files
+.DS_Store
+
+# Docker/Dev container logs (optional)
+*var/log*
