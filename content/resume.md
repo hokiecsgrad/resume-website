@@ -34,7 +34,7 @@ Operational executive with a track record of partnering with C-Suite leadership 
 ### KBS Analytics (d.b.a. KlariVis)
 **Senior Engineering Manager** | *Roanoke, VA | Jan 2020 – Jun 2021*
 
-*Recruited to transform a manual financial consulting workflow into an automated SaaS platform. Enabled the company to secure its first 10 bank customers and over \$3M in seed funding.*
+*Recruited to transform a manual financial consulting workflow into an automated SaaS platform. Enabled the company to secure its first 10 bank customers and over \$2.5M in seed funding.*
 
 * **Greenfield Product Architecture:** Architected the complete Azure SaaS solution using C# (.NET MVC), React.js, and SQL. Replaced a manual multi-week spreadsheet process with near real-time PowerBI analytics.
 * **Technical Rigor & DevOps:** Implemented PowerShell-based Infrastructure-as-Code (IaC) for Azure Cloud Services, ensuring consistent and secure environments.
