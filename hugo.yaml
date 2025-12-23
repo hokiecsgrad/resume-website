@@ -32,9 +32,9 @@ params:
     enabled: true
     title: Ryan Hagan
     subtitle: "Executive Technology Leader & Operational Strategist"
-    imageUrl: "https://github.com/ryanhagan.png" 
-    imageWidth: 150
-    imageHeight: 150
+    imageUrl: "headshot.jpg"
+    imageWidth: 200
+    imageHeight: 200
     buttons:
       - name: View Resume
         url: /resume/
