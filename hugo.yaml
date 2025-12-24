@@ -50,6 +50,10 @@ params:
     - name: email
       url: "mailto:ryan@ryanhagan.net"
 
+services:
+  googleAnalytics:
+    ID: "G-9K1RT91TD3"
+
 assets:
   favicon: "favicon.ico"
   favicon16x16: "favicon-16x16.png"
