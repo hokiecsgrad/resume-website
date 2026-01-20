@@ -1,21 +1,19 @@
 {
   "name": "Hugo Resume",
-  "dockerComposeFile": "../docker-compose.yml",
+  "dockerComposeFile": "docker-compose.yml",
   "service": "hugo",
   "workspaceFolder": "/src",
-  
   // This installs the Hugo extension inside the container automatically
   "customizations": {
     "vscode": {
       "extensions": [
-        "rusn.vscode-hugo" 
+        "rusn.vscode-hugo",
+        "anthropic.claude-code"
       ]
     }
   },
-
   // OPTIONAL: Uncomment the line below if you prefer to start 'hugo server' manually 
   // in the terminal rather than having it run automatically on startup.
   "overrideCommand": true,
-
   "shutdownAction": "stopCompose"
 }

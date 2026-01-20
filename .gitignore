@@ -9,11 +9,10 @@ resources
 # Docker/Dev container logs (optional)
 *var/log*
 
-# Claude Code - Temporary and Session Files
-.claude.json
-.claude/tmp/
-.claude/plans/
-.claude/agents/
+# Claude Code - Ignore most of .claude/ directory
+# Keep only: CLAUDE.md (project instructions) and .claude/settings.json (shared settings)
+.claude/*
+!.claude/settings.json
 
-# Claude Code - Local Settings (not shared)
-.claude/settings.local.json
+# Root-level Claude config (if present)
+.claude.json
