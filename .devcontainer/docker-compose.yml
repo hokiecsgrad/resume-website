@@ -1,5 +1,8 @@
 services:
   hugo:
+    environment:
+      CLAUDE_CONFIG_DIR: /src/.claude
+      CLAUDE_CODE_TMPDIR: /src/.claude/tmp
     # "exts" = Extended version (required for PaperMod) + Standard tools
     image: hugomods/hugo:exts
     container_name: hugo-dev
@@ -8,8 +11,9 @@ services:
       - "1313:1313"
     # Mounts your current folder (.) to the container's source folder (/src)
     volumes:
-      - .:/src
+      - ..:/src
+    # Entrypoint creates symlink for Claude Code auth persistence, then runs command
+    entrypoint: ["/bin/sh", "-c", "mkdir -p /src/.claude/tmp /src/.claude/agents /src/.claude/plans && ln -sf /src/.claude.json ~/.claude.json && exec \"$@\"", "--"]
     # The command to run the dev server
     # --bind 0.0.0.0 is crucial to expose it outside the container
     command: hugo server --bind 0.0.0.0 --buildDrafts
-
