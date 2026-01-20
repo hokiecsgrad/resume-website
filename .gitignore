@@ -8,3 +8,12 @@ resources
 
 # Docker/Dev container logs (optional)
 *var/log*
+
+# Claude Code - Temporary and Session Files
+.claude.json
+.claude/tmp/
+.claude/plans/
+.claude/agents/
+
+# Claude Code - Local Settings (not shared)
+.claude/settings.local.json
