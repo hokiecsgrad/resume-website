@@ -24,7 +24,7 @@ menu:
       url: /engineering/
       weight: 30
     - identifier: ai
-      name: AI
+      name: "Artificial Intelligence"
       url: /ai/
       weight: 40
 

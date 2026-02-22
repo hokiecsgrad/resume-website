@@ -20,9 +20,10 @@ This is a personal portfolio and professional blog for Ryan Hagan (Executive Tec
 ## 2. Key Commands
 
 ### Development
-* **Start Local Server:**
+### Development
+* **Start Local Server (Inside Docker):**
     ```bash
-    hugo server
+    hugo server --bind 0.0.0.0
     ```
     * *Add `-D` to see Drafts.*
     * *Add `-F` to see Future-dated posts.*
