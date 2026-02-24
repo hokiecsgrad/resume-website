@@ -1,8 +1,8 @@
 ---
 title: 'Lots of Thoughts Around AI'
+summary: 'High-level, general thoughts around several AI related topics.'
 date: 2026-02-21
 draft: false
-summary: 'High-level, general thoughts around several AI related topics.'
 weight: 10
 ---
 

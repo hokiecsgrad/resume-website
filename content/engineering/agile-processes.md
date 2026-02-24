@@ -1,7 +1,7 @@
 ---
 title: "Rolling Out Agile Processes"
-weight: 200
+summary: "Learnings from transitioning to agile workflows."
 date: 2025-12-30
-draft: false
-summary: "Coming soon..."
+draft: true
+weight: 200
 ---

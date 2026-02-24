@@ -1,9 +1,9 @@
 ---
 title: "From Rescuer to Coach: Breaking the Cycle of Dependence"
-weight: 30
+summary: "You've accidentally trained your team to need you for everything, but you can break the cycle by shifting from rescuer to coach."
 date: 2025-12-31
 draft: false
-summary: "You've accidentally trained your team to need you for everything, but you can break the cycle by shifting from rescuer to coach."
+weight: 30
 ---
 
 It's 4pm and you still haven't touched that strategic project due Friday. Why? Because you've spent the day answering questions your team should be answering themselves. You have smart, capable people, but somehow you've become the bottleneck for every decision. Here's the hard truth: you created this problem.

@@ -1,8 +1,8 @@
 ---
-title: 'Trust Is the Basis of Everything'
+title: "Trust Is the Basis of Everything"
 summary: "If you don't nail trust, nothing else matters."
-date: '2026-02-22'
-draft: true
+date: 2026-02-22
+draft: false
 weight: 5
 ---
 

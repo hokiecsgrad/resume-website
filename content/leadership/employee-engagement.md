@@ -1,9 +1,9 @@
 ---
 title: "Employee Engagement: The Business Case for Leaders"
-weight: 10
+summary: "Employee engagement drives measurable business outcomes, with top-quartile companies seeing 18% higher sales and 23% higher profitability than their disengaged peers."
 date: 2025-12-22
 draft: false
-summary: "Employee engagement drives measurable business outcomes, with top-quartile companies seeing 18% higher sales and 23% higher profitability than their disengaged peers."
+weight: 10
 ---
 
 Low employee engagement drives a $438 billion gap in global productivity each year. Engagement 

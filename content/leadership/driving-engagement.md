@@ -1,9 +1,9 @@
 ---
 title: "Turning Employee Engagement Theory Into Practice With Three Pillars That Actually Work"
-weight: 20
+summary: "Discover practical strategies for implementing Autonomy, Mastery, and Purpose to transform employee engagement at your company."
 date: 2025-12-23
 draft: false
-summary: "Discover practical strategies for implementing Autonomy, Mastery, and Purpose to transform employee engagement at your company."
+weight: 20
 ---
 
 > Note: This article was adapted from a presentation on the same subject.
