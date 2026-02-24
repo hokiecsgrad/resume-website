@@ -52,6 +52,6 @@ Rebuilding that trust is harder than establishing it in the first place, if you 
 repeated efforts, and you may never fully get there. Your best bet is to not end up in this position at all.
 
 There's a lot more to say about trust and what you can build with it, and what you'll miss without it, but
-that will have to wait.  For now, iff I'm lucky enough to get asked about the most important aspect of 
+that will have to wait.  For now, if I'm lucky enough to get asked about the most important aspect of 
 management again, I'll be ready.  It's trust.  It was always trust.  It will always be trust. Everything 
 else is secondary.
